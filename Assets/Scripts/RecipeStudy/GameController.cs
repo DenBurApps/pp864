@@ -90,6 +90,7 @@ namespace RecipeStudy
             DisableUIElements();
             _recipeElementHolder.DisableAllElements();
             _recipeElementHolder.SetSequenceCount(_difficulty);
+            _recipeElementHolder.ResumeSequence();
             _recipeElementHolder.StartSequence();
         }
 

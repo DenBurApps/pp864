@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InitializeScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 5cf0a19897babaa4cab92fd53e285c3c
+  - enabled: 1
+    path: Assets/Scenes/IngredientGatheringScene.unity
+    guid: bc49acf216dcc2a4e82a15d43b0b8859
+  - enabled: 1
+    path: Assets/Scenes/RecipeStudyScene.unity
+    guid: 5bfc8b610486331448a118c895bd5784
+  - enabled: 1
+    path: Assets/Scenes/StoveControlScene.unity
+    guid: 37e7644502ab5dc42a9e1610f638b9f5
+  - enabled: 1
+    path: Assets/Scenes/CuttingIngredientsScene.unity
+    guid: 9e791fcb2aa52ae4da7004933a533a02
   m_configObjects: {}

@@ -94,7 +94,7 @@ namespace IngredientsCut
             {
                 ing.gameObject.SetActive(false);
             }
-            
+
             _pauseScreen.DisableScreen();
             _winScreen.DisableScreen();
             _loseScreen.DisableScreen();
@@ -166,8 +166,9 @@ namespace IngredientsCut
         {
             _currentIngredient = _ingredientsSpawner.GetFirstIngredient();
 
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(1.5f);
 
+            if (_currentIngredient == null) yield break;
             var ingredient = _ingredientsToCuts.FirstOrDefault(ing => ing.Type == _currentIngredient.Type);
 
             if (ingredient != null)
